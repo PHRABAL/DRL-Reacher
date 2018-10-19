@@ -22,7 +22,7 @@ As seen in the code, the DDPG algorithm is used to train the agent. DDPG is a mo
 ### Simplify
 One of the challenges with deep reinforcement learning and, particularly the DDPG algorithm, is the large number of hyperparameters that need to be tuned to achieve good performance. My approach to building an effective model was to first use the default settings found in the DDPG research paper for most of the hyperparameters, then attempt to reduce the size of the actor-critic neural networks to the simplest possible structure. I find that the simplier the model, the easier it is to tune and the more stable the learning. 
 
-The <a href="https://arxiv.org/pdf/1509.02971.pdf" target="_new" >DDPG paper</a> used a two layer neural network of 400 and 300 nodes, respectively, for both the actor and critic. I reduced this to nodes of 256-128 and reduced the learning rate for the critic network by a factor of 0.1 compared to the DDPG paper. This modification alone produced outstanding performance. The model was able to achieve the 30 reward goal in the least possible amount of time - just 100 episodes.
+The <a href="https://arxiv.org/pdf/1509.02971.pdf" target="_blank" >DDPG paper</a> used a two layer neural network of 400 and 300 nodes, respectively, for both the actor and critic. I reduced this to nodes of 256-128 and reduced the learning rate for the critic network by a factor of 0.1 compared to the DDPG paper. This modification alone produced outstanding performance. The model was able to achieve the 30 reward goal in the least possible amount of time - just 100 episodes.
 
 ### Other hyperparameters
 
