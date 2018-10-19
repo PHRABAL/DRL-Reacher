@@ -1,7 +1,7 @@
 <img align="center" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b1ea778_reacher/reacher.gif">
 
 
-# Deep Reinforcement Learning - Reacher Continuous Control
+# Deep Reinforcement Learning - DDPG Algorithm - Reacher Continuous Control
 
 ## Overview
 Using the Unity agent/environment "Reacher", this deep reinforcement learning task trains an AI agent to keep its double jointed arm on a ball for as long as possible. The task is considered solved when the agent, who receives various rewards for maintaining its position, receives an average reward of 30 over 100 consecutive episodes.
