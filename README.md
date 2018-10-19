@@ -32,4 +32,4 @@ I did experiment with tuning other hyperparameters, but they did not have the sa
 
 ## Setup Instructions
 
-To reproduce this model on a Mac, clone the <a href="https://github.com/udacity/deep-reinforcement-learning">Udacity DRLND repo</a>, then place the reacher.app file in the p2_continuous-control folder. Also place the Juputer notebook there and run it.
+To reproduce this model on a Mac, clone the <a href="https://github.com/udacity/deep-reinforcement-learning">Udacity DRLND repo</a>, then place the reacher.app.zip file in the p2_continuous-control folder. Also place the Juputer notebook there and run it.
