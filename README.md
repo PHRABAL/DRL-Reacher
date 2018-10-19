@@ -8,7 +8,7 @@ Using the Unity agent/environment "Reacher", this deep reinforcement learning ta
 
 The Unity environment has two options - using a single agent or 20 agents in parallel. In the latter case, the experiences and rewards of all 20 agents running at the same time are combined during evalation and training. This repo uses the 20 agent version.
 
-In either environment, each agent receives feedback in the form of a reward (+0.1 to +0.4) or no reward after taking each action. The environment conveys to the agent the state of the agent in the form of 33 different values related to position, rotation, velocity and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints.
+In either environment, each agent receives feedback in the form of a reward (+0.1) or no reward after taking each action. The environment conveys to the agent the state of the agent in the form of 33 different values related to position, rotation, velocity and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints.
 
 At first the agent randomly takes actions and records the feedback, but eventually begins to take those experiences and learn from them using a Deep Deterministic Policy Gradient (DDPG) algorithm.
 
