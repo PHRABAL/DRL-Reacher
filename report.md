@@ -17,3 +17,5 @@ The model was able to achieve the 30 average reward goal in the least possible a
 <img src="Rewards_Graph.png" width="400" height="260" />
 
 I did experiment with tuning other hyperparameters, but they did not have the same positive impact as hidden layer node reduction and learning rate changes described above. Having said that, I believe that adjustments to the Ornstein-Uhlenbeck noise level, which controls the amount of exploration the agent does, could yield improved results in some environments. Decaying the noise level (exploration) over time is regularly done in other deep reinforcement learning algorithms. However, since my model had already achieve maximum performance for this task, there was no need to explore it further.
+
+I plan to now do the optional Crawler exercise, which is much more complex with a 20 action space and 129 state space to see how I can further improve on the baseline DDPG algorithm.
