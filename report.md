@@ -7,7 +7,7 @@ I used two deep neural networks (actor-critic), each with two hidden layers of 2
 
 
 ### Hyperparameters
-A learning rate of 1e-4 on each DNN and batch size of 128 were used along with replay buffer size of 1e5, gamma .99 and Tau of 1e-3. There was no change to the default Ornstein-Uhlenbeck noise parameters.
+A learning rate of 1e-4 on each DNN and batch size of 128 were used along with replay buffer size of 1e5, gamma .99 and Tau of 1e-3. There was no change to the default Ornstein-Uhlenbeck noise parameters (0.15 theta and 0.2 sigma.)
 
 
 ## Results and Future Work
