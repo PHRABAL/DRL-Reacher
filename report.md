@@ -1,7 +1,7 @@
 ## Deep Reinforcement Learning - Reacher Continuous Control
 
 ### Model Architecture
-The Udacity provided DDPG code in PyTorch was used and adapted for this environment. 
+The Udacity provided DDPG code in PyTorch was used and adapted for this 20 agent (version 2) environment.
 
 I used two deep neural networks (actor-critic), each with two hidden layers of 256-128 nodes, with ReLU activation functions on the hidden layers and tanh on the output layers. As discussed in the Readme overview, I used shallower DNNs than the DDPG paper. This produced superior performance compared to Udacity's baseline attempt.
 
