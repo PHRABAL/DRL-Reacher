@@ -1,4 +1,4 @@
-## Deep Reinforcement Learning - Reacher Continuous Control
+## DRL - DDPG Algorithm - Reacher Continuous Control
 
 ### Model Architecture
 The Udacity provided DDPG code in PyTorch was used and adapted for this 20 agent (version 2) environment.
